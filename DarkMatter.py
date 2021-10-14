@@ -4,7 +4,11 @@ import time
 import multiprocessing, random
 
 ip = sys.argv[1]
-port = sys.argv[2]
+port = int(sys.argv[2])
+
+print(ip)
+print(port)
+exit()
 
 url = "http://" + str(ip)
 
